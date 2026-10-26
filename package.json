@@ -1,0 +1,16 @@
+{
+  "name": "phonelink-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny WebSocket relay that pairs two PhoneLink devices by a short code and tunnels raw bytes between them, so the app works across different networks (not just the same WiFi).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
